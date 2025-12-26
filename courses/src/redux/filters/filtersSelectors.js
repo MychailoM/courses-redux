@@ -1,0 +1,1 @@
+export const selectCoursesLevel = state => state.filters.level;
