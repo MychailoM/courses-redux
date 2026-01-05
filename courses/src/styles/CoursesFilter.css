@@ -1,0 +1,30 @@
+.filter {
+  margin-bottom: 20px;
+}
+
+.filter__label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+
+.filter__select {
+  margin-left: 10px;
+  padding: 6px 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #fff;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.filter__select:hover {
+  border-color: #888;
+}
+
+.filter__select:focus {
+  outline: none;
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.2);
+}
